@@ -1,8 +1,40 @@
-# React + Vite
+# TestFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TestFlow is a React-based QA workspace for managing testing projects, bug reports and Kanban-style QA workflow.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive app shell with sidebar navigation
+- Home page with project introduction
+- Dashboard with QA statistics
+- Projects overview
+- Bug reports list
+- Kanban board by bug status
+- Settings placeholder for future options
+
+## Tech stack
+
+- React
+- Vite
+- React Router
+- React Icons
+- modern-normalize
+
+## Project goal
+
+The goal of this project is to build a clean portfolio-level React application that looks like a real QA management tool.
+
+Future updates will include forms, localStorage, filters, search, dark/light theme and editable bug reports.
+
+## Getting started
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
