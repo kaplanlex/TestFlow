@@ -1,4 +1,4 @@
-.appShell {
+/* .appShell {
   display: grid;
   grid-template-columns: 280px 1fr;
   min-height: 100vh;
@@ -308,4 +308,10 @@ button,
   .navigation {
     grid-template-columns: 1fr;
   }
+} */
+
+.app {
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-text);
 }
